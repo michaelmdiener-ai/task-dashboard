@@ -24,6 +24,10 @@ updates:
       semver-patch-days: 2
     open-pull-requests-limit: 10
     groups:
+      react-family:
+        patterns:
+          - "react"
+          - "react-dom"
       npm-development:
         dependency-type: development
         update-types:
